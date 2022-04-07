@@ -1,15 +1,15 @@
-import React from "react"
-import Helmet from 'react-helmet';
-import Layout from "../components/layout"
+import React from "react";
+import Helmet from "react-helmet";
+import Layout from "../components/layout";
 import { Link } from "gatsby";
 
-const notFound = () => {
+const PortfolioPage = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Page not found</title>
+        <title>Portfolio</title>
       </Helmet>
-      <div style={{textAlign: "center", padding:"5vh 0", lineHeight: "1.5"}}>
+      <div style={{ textAlign: "center", padding: "5vh 0", lineHeight: "1.5" }}>
         <svg
           width="256"
           height="256"
@@ -37,10 +37,17 @@ const notFound = () => {
             fill="currentColor"
           />
         </svg>
-        <p>Sorry, that page wasn't found! Lets go back <Link to="/">home</Link> safely</p>
+        <p>
+          Welcome to my portfolio. This section of the site is still under
+          maintanence and should be back online soon, thanks for checking!
+        </p>
+        <p>
+          Feel free to reach out to me on LinkedIn with any questions or for a
+          portfolio request in the meantime.
+        </p>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default notFound
+export default PortfolioPage;
