@@ -18,7 +18,7 @@ const AboutPage = () => {
           update and progress!
         </p>
         <p>
-          Feel free to check out my <Link to="https://github.com/coltoncs">Github</Link> for my current and past projects, and keep an eye on my <Link to="https://www.linkedin.com/in/colton-sweeney/">LinkedIn</Link> for more information on me!
+          Feel free to check out my <a href="https://github.com/coltoncs">Github</a> for my current and past projects, and keep an eye on my <a href="https://www.linkedin.com/in/colton-sweeney/">LinkedIn</a> for more information on me!
         </p>
       </div>
     </Layout>

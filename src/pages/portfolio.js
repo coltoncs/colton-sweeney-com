@@ -42,7 +42,7 @@ const PortfolioPage = () => {
           maintanence and should be back online soon, thanks for checking!
         </p>
         <p>
-          Feel free to reach out to me on <Link to="https://www.linkedin.com/in/colton-sweeney/">LinkedIn</Link> with any questions or for a
+          Feel free to reach out to me on <a href="https://www.linkedin.com/in/colton-sweeney/">LinkedIn</a> with any questions or for a
           portfolio request in the meantime.
         </p>
       </div>
