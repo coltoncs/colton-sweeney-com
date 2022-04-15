@@ -3,6 +3,9 @@ template: BlogPost
 path: /welcome
 date: 2022-04-08T13:12:00.000Z
 title: Welcome to my new website
+metaDescription: >-
+  Welcome to my new website, blog, and portfolio. Be sure to check back
+  periodically as I continue to build and grow!
 thumbnail: ''
 ---
 Welcome! 
