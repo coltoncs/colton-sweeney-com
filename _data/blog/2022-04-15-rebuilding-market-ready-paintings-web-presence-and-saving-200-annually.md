@@ -3,6 +3,11 @@ template: BlogPost
 path: /portfolio/market-ready-painting
 date: 2022-04-15T16:11:13.239Z
 title: Rebuilding Market Ready Painting's Web Presence and Saving $200 Annually
+metaDescription: >-
+  Market Ready Painting, a local home repair and paint specialist in North
+  Carolina, was previously paying over $200 annually for a website from
+  Squarespace. On top of that, the website itself was very poorly put together
+  and did not offer a good design or experience.
 thumbnail: /assets/mrp.png
 ---
 > This post is a carry-over for my new website, I'm actually in the process of redesigning Market Ready Painting's website with an all-new WordPress backend. Stay tuned for the accompanying blog post!
