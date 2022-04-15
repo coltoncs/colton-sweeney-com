@@ -11,6 +11,7 @@ body {
 body.light {
   --primary-color: #381696;
   --primary-text-color: #fff;
+  --nav-text-color: #444;
   --featured-bg: #493b8a;
   --featured-text: #fff;
   --secondary-color: #10072b;
@@ -31,6 +32,7 @@ body.light {
 body.dark {
   --primary-color: #9984d5;
   --primary-text-color: #fff;
+  --nav-text-color: #fff;
   --featured-bg: #66578d;
   --featured-text: #fff;
   --secondary-color: #66578d;
@@ -75,9 +77,9 @@ a {
 .navigation {
   display: flex;
   align-items: center;
-  font-weight: 300;
+  font-weight: 400;
   a {
-    color: #e2e2e2;
+    color: var(--nav-text-color);
     text-decoration: none;
     margin: 0 8px 0;
     &[aria-current] {
