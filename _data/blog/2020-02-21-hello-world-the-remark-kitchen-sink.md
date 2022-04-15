@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /welcome
-date: 2020-02-21T12:12:25.364Z
+date: 2022-04-08T13:12:00.000Z
 title: Welcome to my new website
 thumbnail: ''
 ---
