@@ -20,6 +20,7 @@ const AboutPage = () => {
         <p>
           Feel free to check out my <a href="https://github.com/coltoncs">Github</a> for my current and past projects, and keep an eye on my <a href="https://www.linkedin.com/in/colton-sweeney/">LinkedIn</a> for more information on me!
         </p>
+        <p className="attn">Old portfolio viewable <a href="https://coltonsoldportfolio.netlify.app/">here</a></p>
       </div>
     </Layout>
   );

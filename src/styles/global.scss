@@ -5,9 +5,15 @@ body {
   margin: 0;
   padding: 0;
 }
+
 * {
   margin-top: 0
 }
+
+.attn {
+  font-weight: 700;
+}
+
 body.light {
   --primary-color: #381696;
   --primary-text-color: #fff;
