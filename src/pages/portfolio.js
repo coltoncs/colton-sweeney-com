@@ -1,8 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
 import Layout from "../components/layout";
-import { Link } from "gatsby";
-import PostLink from "../components/post-link";
 
 const PortfolioPage = () => {
   return (
