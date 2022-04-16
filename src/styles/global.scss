@@ -34,6 +34,7 @@ body.light {
   --contact-bg: #f7f8fe;
   --contact-bdr: #d3d6e7;
   --input-bg: var(--background);
+  --btn-shadow: rgba(0, 0, 0, 0.75);
 }
 body.dark {
   --primary-color: #9984d5;
@@ -57,6 +58,7 @@ body.dark {
   --contact-bg: var(--card-shadow);
   --contact-bdr: var(--card-bg);
   --input-bg: var(--card-bg);
+  --btn-shadow: rgba(255, 255, 255, 0.75);
 }
 /* System Fonts as used by Medium and WordPress */
 body {
@@ -80,10 +82,15 @@ a {
     max-width: 100%;
   }
 }
+.toggle-nav {
+  position: fixed;
+}
 .navigation {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   font-weight: 400;
+  width: 50%;
   a {
     color: var(--nav-text-color);
     text-decoration: none;
@@ -306,6 +313,22 @@ a {
   }
 }
 /* Portrait and Landscape */
+@media screen and (max-width: 767px) {
+  .navigation>label {
+    position: fixed;
+    bottom: 45px;
+    background-color: var(--primary-color);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    box-shadow: 0 0 15px var(--btn-shadow);
+
+    div {
+      margin: 20% auto;
+    }
+  }
+}
 @media only screen 
 and (min-width: 768px) {
 .grids {

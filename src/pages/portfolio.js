@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import Layout from "../components/layout";
 import { Link } from "gatsby";
+import PostLink from "../components/post-link";
 
 const PortfolioPage = () => {
   return (
@@ -9,6 +10,7 @@ const PortfolioPage = () => {
       <Helmet>
         <title>Portfolio</title>
       </Helmet>
+      <div className="headline">My Portfolio</div>
       <div style={{ textAlign: "center", padding: "5vh 0", lineHeight: "1.5" }}>
         <svg
           width="256"
