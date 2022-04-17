@@ -16,7 +16,7 @@ const ContactPage = ({
       </Helmet>
       <div className="two-grids -contact">
         <div className="post-thumbnail" style={{backgroundImage: `url('/assets/AdobeStock_331653936.jpeg')`, marginBottom: 0}}>
-          <h1 className="post-title">Get in Touch</h1>
+          <h1 className="post-title">Get in Touch🚀</h1>
           <p>Let me help you kick start your next project &rarr;</p>
         </div>
         <div>
