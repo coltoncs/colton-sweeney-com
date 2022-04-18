@@ -430,7 +430,8 @@ body.light {
         no-repeat 14px 5px/6px 2px;
   border-radius: 100px;
   box-shadow: inset 0 0 0 2px;
-  border: 6px solid transparent
+  border: 6px solid transparent;
+  cursor: pointer;
 }
 .gg-sun::after,
 .gg-sun::before {
@@ -464,7 +465,8 @@ body.light {
     width: 20px;
     height: 20px;
     border: 2px solid;
-    border-bottom-color: transparent
+    border-bottom-color: transparent;
+    cursor: pointer;
 }
 .gg-moon::after {
     content: "";
@@ -475,4 +477,8 @@ body.light {
     box-shadow: 0 0 0 2px;
     top: 8px;
     left: 2px
+}
+
+.gg-sun:hover, .gg-moon:hover {
+  color: var(--primary-color);
 }

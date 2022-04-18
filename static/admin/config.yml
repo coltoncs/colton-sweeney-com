@@ -41,6 +41,7 @@ collections:
                 label: Description
                 default: ''
                 required: false
+
   - name: blog
     label: Blog
     folder: _data/blog
