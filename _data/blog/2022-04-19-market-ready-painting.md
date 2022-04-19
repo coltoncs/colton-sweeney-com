@@ -1,6 +1,6 @@
 ---
 template: Post
-path: /market-ready-painting-blog
+path: /market-ready-painting
 type: portfolio
 date: 2022-04-19T16:11:13.239Z
 title: Market Ready Painting
