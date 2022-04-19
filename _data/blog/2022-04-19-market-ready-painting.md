@@ -11,8 +11,6 @@ metaDescription: >-
   and did not offer a good design or experience.
 thumbnail: /assets/mrp.png
 ---
-> This post is a carry-over for my new website, I'm actually in the process of redesigning Market Ready Painting's website with an all-new WordPress backend. Stay tuned for the accompanying blog post!
-
 Market Ready Painting, a local home repair and paint specialist in North Carolina, was previously paying over $200 annually for a website from Squarespace. On top of that, the website itself was very poorly put together and did not offer a good design or experience. I took it upon myself to redesign and reimagine the client experience, and two weeks later I had rebuilt the website from the ground up at a cost of only $12 annually.
 
 While Squarespace offers enticing options for small business owners without development experience, nowadays there's no excuse to pay such ridiculous pricing options when there are so many easy, free frameworks to leverage. Market Ready Painting, a local paint specialist in North Carolina, had previously setup a simple website on Squarespace to advertise their business. A homepage with some bio and testimonials, some previously completed projects, a contact page with a form - the basics of any SMB's website. However, MRP was paying over $200/year for the website hosting and services - a ridiculous amount when*developing*a website in 2020 is practically free. I took it upon myself to rebuild the frontend for a better user experience. 
