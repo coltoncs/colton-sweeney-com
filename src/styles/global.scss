@@ -318,6 +318,9 @@ a {
     }
   }
 }
+.container {
+  margin-bottom: 50px;
+}
 
 .gallery {
   width: 100%;
@@ -341,6 +344,16 @@ a {
   border-radius: 8px;
   background-color: var(--btn-bg);
   color: white;
+}
+
+.page_link {
+  color: var(--text-color);
+  font-weight: 600;
+
+  &:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
 }
 
 .post-thumbnail {

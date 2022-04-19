@@ -27,7 +27,7 @@ const PortfolioPage = ({
 };
 
 export default PortfolioPage;
-export const portfolioPageQuery = graphql`
+export const pageQuery = graphql`
   query portfolioPageQuery {
     site {
       siteMetadata {

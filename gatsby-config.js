@@ -16,6 +16,14 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/`,
+        ignore: [`**/\.*`],
+      }
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [{

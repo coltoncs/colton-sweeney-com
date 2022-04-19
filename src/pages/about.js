@@ -28,7 +28,13 @@ import {
   DiPython,
 } from "react-icons/di";
 
-const AboutPage = () => {
+const AboutPage = ({
+  data: {
+    allFile: { edges },
+  },
+}) => {
+  const file = edges[0].node.publicURL;
+  console.log(file)
   return (
     <Layout>
       <Helmet>
@@ -76,6 +82,10 @@ const AboutPage = () => {
           Old portfolio viewable{" "}
           <a href="https://coltonsoldportfolio.netlify.app/">here</a>
         </p>
+        <p className="attn">
+          Resume viewable{" "}
+          <a href={file}>here</a>
+        </p>
         <div className="showcase">
           <DiHtml5 size={"3rem"} />
           <DiCss3 size={"3rem"} />
@@ -118,3 +128,20 @@ const AboutPage = () => {
 };
 
 export default AboutPage;
+export const pageQuery = graphql`
+  query aboutPageQuery {
+    allFile(filter: { extension: { eq: "pdf" } }) {
+      edges {
+        node {
+          publicURL
+        }
+      }
+    }
+    site {
+      siteMetadata {
+        title
+        description
+      }
+    }
+  }
+`;
