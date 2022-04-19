@@ -2,6 +2,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
+import { BiChevronsRight } from 'react-icons/bi';
 
 const ContactPage = ({
   data: {
@@ -16,8 +17,8 @@ const ContactPage = ({
       </Helmet>
       <div className="two-grids -contact">
         <div className="post-thumbnail" style={{backgroundImage: `url('/assets/AdobeStock_331653936.jpeg')`, marginBottom: 0}}>
-          <h1 className="post-title">Get in Touch🚀</h1>
-          <p>Let me help you kick start your next project &rarr;</p>
+          <h1 className="post-title">Get in Touch<span role="img" aria-label="Rocket emoji">🚀</span></h1>
+          <p className="flex_center">Let me help you kick start your next project <BiChevronsRight/></p>
         </div>
         <div>
           <form className="form-container" data-netlify="true" data-netlify-honeypot="bot-field" method="POST" name="Contact">

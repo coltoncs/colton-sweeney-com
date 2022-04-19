@@ -1,6 +1,7 @@
 ---
-template: BlogPost
+template: Post
 path: /welcome
+type: blog
 date: 2022-04-08T13:12:00.000Z
 title: Welcome to my new website
 metaDescription: >-

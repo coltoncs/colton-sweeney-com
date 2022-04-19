@@ -319,6 +319,12 @@ a {
   }
 }
 
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Portrait and Landscape */
 @media only screen  
   and (max-device-width: 736px)  { 

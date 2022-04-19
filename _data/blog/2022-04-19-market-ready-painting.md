@@ -1,9 +1,9 @@
 ---
 template: Post
-path: /market-ready-painting
-type: blog
-date: 2022-04-15T16:11:13.239Z
-title: Rebuilding Market Ready Painting's Web Presence and Saving $200 Annually
+path: /market-ready-painting-blog
+type: portfolio
+date: 2022-04-19T16:11:13.239Z
+title: Market Ready Painting
 metaDescription: >-
   Market Ready Painting, a local home repair and paint specialist in North
   Carolina, was previously paying over $200 annually for a website from
