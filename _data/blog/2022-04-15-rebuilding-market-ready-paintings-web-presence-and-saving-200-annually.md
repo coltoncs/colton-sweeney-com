@@ -1,6 +1,6 @@
 ---
 template: Post
-path: /market-ready-painting
+path: /market-ready-painting-blogpost
 type: blog
 date: 2022-04-15T16:11:13.239Z
 title: Rebuilding Market Ready Painting's Web Presence and Saving $200 Annually
