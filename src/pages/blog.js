@@ -3,22 +3,22 @@ import Helmet from "react-helmet";
 import Layout from "../components/layout";
 import PostLink from "../components/post-link"
 
-const PortfolioPage = ({
+const BlogPage = ({
   data: {
     allMarkdownRemark: { edges },
   },
 }) => {
 
   const Posts = edges
-    .filter(edge => edge.node.frontmatter.type === 'portfolio')
+    .filter(edge => edge.node.frontmatter.type === 'blog')
     .map(edge => <PostLink style={{ width: '33%' }} key={edge.node.id} post={edge.node} />)
 
   return (
     <Layout>
       <Helmet>
-        <title>Portfolio</title>
+        <title>Blog</title>
       </Helmet>
-      <div className="headline">My Portfolio</div>
+      <div className="headline">My Blog</div>
       <div className="gallery flex_center">
         {Posts}
       </div>
@@ -26,9 +26,9 @@ const PortfolioPage = ({
   );
 };
 
-export default PortfolioPage;
-export const portfolioPageQuery = graphql`
-  query portfolioPageQuery {
+export default BlogPage;
+export const blogPageQuery = graphql`
+  query blogPageQuery {
     site {
       siteMetadata {
         title

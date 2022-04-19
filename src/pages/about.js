@@ -25,7 +25,7 @@ import {
   DiIllustrator,
   DiDocker,
   DiDreamweaver,
-  DiPython
+  DiPython,
 } from "react-icons/di";
 
 const AboutPage = () => {
@@ -41,6 +41,9 @@ const AboutPage = () => {
           will be building upon and adding content to in my free time. Right
           now, this site is still in development, so please bare with me as I
           update and progress!
+          <br />
+          <br /> UPDATE 4/19: Stay tuned as content gets added to both Blog and
+          Portfolio pages, both of which are new additions.
         </blockquote>
         <p style={{ textIndent: "35px" }}>
           My name is Colton Sweeney, and I'm a full-stack web and sofware
@@ -74,46 +77,44 @@ const AboutPage = () => {
           <a href="https://coltonsoldportfolio.netlify.app/">here</a>
         </p>
         <div className="showcase">
-          <DiHtml5 size={'3rem'}/>
-          <DiCss3 size={'3rem'}/>
-          <DiJavascript size={'3rem'}/>
-          <DiReact size={'3rem'}/>
+          <DiHtml5 size={"3rem"} />
+          <DiCss3 size={"3rem"} />
+          <DiJavascript size={"3rem"} />
+          <DiReact size={"3rem"} />
         </div>
         <div className="showcase">
-          <DiDjango size={'3rem'}/>
-          <DiDotnet size={'3rem'}/>
-          <DiNodejs size={'3rem'}/>
-          <DiSwift size={'3rem'}/>
+          <DiDjango size={"3rem"} />
+          <DiDotnet size={"3rem"} />
+          <DiNodejs size={"3rem"} />
+          <DiSwift size={"3rem"} />
         </div>
         <div className="showcase">
-          <DiLinux size={'3rem'}/>
-          <DiUbuntu size={'3rem'}/>
-          <DiPhotoshop size={'3rem'}/>
-          <DiIllustrator size={'3rem'}/>
+          <DiLinux size={"3rem"} />
+          <DiUbuntu size={"3rem"} />
+          <DiPhotoshop size={"3rem"} />
+          <DiIllustrator size={"3rem"} />
         </div>
         <div className="showcase">
-          <DiPostgresql size={'3rem'}/>
-          <DiMysql size={'3rem'}/>
-          <DiSqllite size={'3rem'}/>
-          <DiMongodb size={'3rem'}/>
+          <DiPostgresql size={"3rem"} />
+          <DiMysql size={"3rem"} />
+          <DiSqllite size={"3rem"} />
+          <DiMongodb size={"3rem"} />
         </div>
         <div className="showcase">
-          <DiFirebase size={'3rem'}/>
-          <DiGithubFull size={'3rem'}/>
-          <DiGoogleAnalytics size={'3rem'}/>
-          <DiGoogleDrive size={'3rem'}/>
+          <DiFirebase size={"3rem"} />
+          <DiGithubFull size={"3rem"} />
+          <DiGoogleAnalytics size={"3rem"} />
+          <DiGoogleDrive size={"3rem"} />
         </div>
         <div className="showcase">
-          <DiWordpress size={'3rem'}/>
-          <DiDocker size={'3rem'}/>
-          <DiDreamweaver size={'3rem'}/>
-          <DiPython size={'3rem'}/>
+          <DiWordpress size={"3rem"} />
+          <DiDocker size={"3rem"} />
+          <DiDreamweaver size={"3rem"} />
+          <DiPython size={"3rem"} />
         </div>
       </div>
     </Layout>
   );
 };
-
-
 
 export default AboutPage;

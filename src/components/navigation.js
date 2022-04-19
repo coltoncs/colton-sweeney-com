@@ -14,6 +14,9 @@ export default (props) => {
         <Link to="/portfolio">
           Portfolio
         </Link>
+        <Link to="/blog">
+          Blog
+        </Link>
         <Link to="/contact">
           Contact
         </Link>

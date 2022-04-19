@@ -26,7 +26,7 @@ body.light {
   --card-bg: #fff;
   --card-bdr: #eee;
   --card-shadow: #d5d5d5;
-  --btn-bg: var(--background);
+  --btn-bg: #493b8a;
   --btn-bdr: #d3d6e7;
   --btn-text-color: #868892;
   --btn-hover-bg: var(--btn-bdr);
@@ -50,7 +50,7 @@ body.dark {
   --card-bg: #181326;
   --card-bdr: #181326;
   --card-shadow: #020204;
-  --btn-bg: var(--background);
+  --btn-bg: #66578d;
   --btn-bdr: #d3d6e7;
   --btn-text-color: #868892;
   --btn-hover-bg: var(--btn-bdr);
@@ -319,10 +319,32 @@ a {
   }
 }
 
+.gallery {
+  width: 100%;
+
+  article {
+    width: 350px;
+    height: 350px;
+    margin: 5%;
+  }
+}
+
 .flex_center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.post_link {
+  font-weight: 600;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: var(--btn-bg);
+  color: white;
+}
+
+.post-thumbnail {
+  margin-top: 25px;
 }
 
 /* Portrait and Landscape */
@@ -346,6 +368,10 @@ a {
 
     .showcase {
       width: 100%;
+    }
+
+    .gallery {
+      flex-direction: column;
     }
 }
 

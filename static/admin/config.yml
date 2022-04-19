@@ -42,8 +42,8 @@ collections:
                 default: ''
                 required: false
 
-  - name: blog
-    label: Blog
+  - name: posts
+    label: Posts
     folder: _data/blog
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     create: true
@@ -59,7 +59,7 @@ collections:
         widget: string
         pattern: [/]
         hint: "Path must start with /"
-      - { name: type, label: Type, widget: string }
+      - { name: type, label: Type, widget: select, options: ['blog', 'portfolio'] }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - label: Meta Description
