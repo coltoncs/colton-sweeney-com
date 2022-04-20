@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import { graphql } from 'gatsby';
 import Layout from "../components/layout";
 import {
   DiHtml5,
@@ -42,15 +43,6 @@ const AboutPage = ({
       </Helmet>
       <div className="headline">About</div>
       <div>
-        <blockquote style={{ color: "rgba(256,256,256,0.4)", margin: "50px" }}>
-          This is my personal, yet minimalistic portfolio/blog website that I
-          will be building upon and adding content to in my free time. Right
-          now, this site is still in development, so please bare with me as I
-          update and progress!
-          <br />
-          <br /> UPDATE 4/19: Stay tuned as content gets added to both Blog and
-          Portfolio pages, both of which are new additions.
-        </blockquote>
         <p style={{ textIndent: "35px" }}>
           My name is Colton Sweeney, and I'm a full-stack web and sofware
           developer living in Raleigh, NC. I've been programming for close to a

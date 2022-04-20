@@ -329,7 +329,7 @@ a {
   article {
     width: 350px;
     height: 350px;
-    margin: 5%;
+    margin: 1%;
   }
 }
 
@@ -394,6 +394,10 @@ a {
 
     .gallery {
       flex-direction: column;
+
+      article {
+        margin: 2%;
+      }
     }
 }
 
