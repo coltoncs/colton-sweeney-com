@@ -12,6 +12,7 @@ metaDescription: >-
   order to familiarize myself with each of the moving parts in more detail. This
   blog post will be a brief overview of how the application functions, and how
   the app is architected.
+thumbnail: /assets/fullstack-blogpost.jpg
 ---
 ## Architect the project
 
